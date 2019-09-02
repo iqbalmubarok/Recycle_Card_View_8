@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecycleView"></activity>
+        <activity android:name=".bio_ragil"></activity>
+        <activity android:name=".bio_iqbal" />
+        <activity android:name=".RecycleView" />
         <activity android:name=".CardView" />
         <activity android:name=".MainActivity">
             <intent-filter>

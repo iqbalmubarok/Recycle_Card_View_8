@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center">
 
-    <!-- activity ini digunakan untuk menyimpan
-    button yang menyimpan link untuk ke activity lain
-    -->
+    <Button
+        android:id="@+id/btn_bio_iqbal"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biodata iqbal"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_bio_ragil"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biodata raden gilang"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/btn_bio_iqbal"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Card View"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/btn_bio_ragil"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_recycle_view"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Recycle View"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@id/btn_card_view"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
