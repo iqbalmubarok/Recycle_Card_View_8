@@ -9,5 +9,6 @@ public class bio_iqbal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bio_iqbal);
+        getSupportActionBar().setTitle("Biodata Iqbal");
     }
 }

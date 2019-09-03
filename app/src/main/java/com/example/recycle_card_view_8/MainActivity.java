@@ -1,6 +1,7 @@
 package com.example.recycle_card_view_8;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
@@ -10,11 +11,13 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button btnBioIqbal, btnBioRagil, btnCardView, btnRecycleView;
+    Color atas;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("Home");
 
         btnBioIqbal = findViewById(R.id.btn_bio_iqbal);
         btnBioRagil = findViewById(R.id.btn_bio_ragil);
